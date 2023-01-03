@@ -1,0 +1,15 @@
+import java.util.Stack;
+
+public class Main {
+    public static void main( String[] args ) {
+        Stack<String> elements = new Stack<> ();
+        elements.push("Holla");
+        elements.push("Que tall");
+        elements.push("Como estas");
+        elements.push("Bien");
+      System.out.println (elements);
+        elements.pop();
+        elements.push("Bien");
+        System.out.println("Stack => " + elements);
+    }
+}
